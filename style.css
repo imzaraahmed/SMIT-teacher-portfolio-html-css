@@ -6,12 +6,29 @@
 
 body {
     font-family: 'Poppins', Arial, sans-serif;
+  
     background-color: #fff;
 }
+
+h2 {
+font-size: 36px;
+}
+
+h2 span{
+color: #ff6600;
+}
+
+h3{
+    font-size: 18px;
+}
+
 
 header {
     background-color: #fff;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+   position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .header {
@@ -67,24 +84,30 @@ header {
 }
 
 section {
-    background-color: chartreuse;
+    
     width: 1240px;
     margin: 0 auto;
 }
-
+.lightPinkBg{
+        background: linear-gradient(135deg, #fffaf7, #fff2e6);
+}
 .hero-section {
-    background-color: pink;
+   
     display: flex;
     justify-content: space-between;
-    padding: 0px 200px;
+    align-items: center;
+    padding: 60px 200px;
 }
 
 .hero-right-col {
-    background-color: chocolate;
+
+    width: 40%;
+    
 }
 
 .hero-left-col {
-    background-color: rgb(202, 244, 147);
+    width: 60%;
+ 
     display: flex;
     flex-direction: column;
     flex-grow:0 ;
@@ -92,10 +115,14 @@ section {
     flex-basis: auto;
     gap: 10px;
 }
+.hero-left-col h1{
+font-size: 38px;
+}
 
 .profile-image img {
-    width: 200px;
-    height: 200px;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 4px solid #ff6600;
     object-fit: cover;
@@ -104,52 +131,98 @@ section {
 
 .btn-top button {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #ff6600;
     border: none;
-    padding: 5px 10px;
+    padding: 8px 15px;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .btn-bottom {
     display: flex;
     justify-content: right;
     margin-top: 0px;
+    
 }
 
 .btn-bottom button {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #ff6600;
     border: none;
-    padding: 7px 10px;
+    padding: 8px 15px;
     font-weight: 700;
+   
+    font-size: 16px;
 
 }
 
 .aboutme-section {
-    background-color: blueviolet;
+    
     display: flex;
     justify-content: space-between;
+padding: 100px 0px;
+align-items: center;
+    
+}
+
+.aboutme-left-col-content {
+    padding-right: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;      
 }
 
 .aboutme-left-col {
-    background-color: cadetblue;
+    
     width: 55%;
+    
+
+}
+
+.aboutme-right-col-content {
+padding: 40px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+
+
+.aboutme-right-col-content p {
+font-size: 16px;
 }
 
 .aboutme-right-col {
-    background-color: crimson;
+    
     width: 45%;
+    
 }
 
 .hom-abt-pod {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #fffaf7;
+    border: 3px solid #ff6600;
+    padding: 20px 20px 10px 20px;
+    border-radius: 15px;
+    gap: 20px;
+    
 }
 
+
+
+
+.hom-abt-pod p{
+    font-size: 14px;
+}
+
+
 .hom-abt-pod-icon {
-    width: 80px;
+    width: 60px;
 
 }
 .orange-color-text {
@@ -163,16 +236,185 @@ color: #ff6600;
     padding: 13px 30px;
     font-size: 16px;
 }
+
+.project-section {
+    padding: 0px 150px;
+}
 .project-section-cards-container{
-    background-color: burlywood;
+   
     display: flex;
     justify-content: space-between;
+    padding-bottom: 100px;
+    gap: 25px;
 }
 .project-section-cards-pod{
-    background-color: cyan;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
     width:33.3%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 .project-section-cards-pod-img{
   
    width:100%;
 }
+
+
+.project-section-cards-pod-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-section-cards-pod-content p {
+    font-size: 13px;
+  
+}
+
+.project-section-cards-pod-content p a{
+
+    color: #ff6600;
+}
+
+.project-section-cards-pod-content p a:hover{
+
+    text-decoration: underline;
+}
+
+
+
+.certificate-section-container{
+    background-color: aqua;
+}.certificate-section-pods-continer{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+.certificate-section-left-pod{
+   width: 50%;
+   background-color: chartreuse;
+}
+.certificate-section-right-pod{
+   width: 50%;
+   background-color: rgb(66, 20, 249);
+   
+}
+.certificate-section-left-pod-image{
+    width:100%;
+}
+.certificate-section-right-pod-image{
+    width:100%;
+}
+
+.project-section-container-heading{
+
+    padding: 100px 0px 70px 0px;
+  
+
+}
+.project-section-container-heading h2{
+    text-align: center;
+
+}
+
+.experience-section {
+     padding: 0px 150px 150px 150px;
+}
+
+.experience-section-heading {
+    padding: 100px 0px 70px 0px;
+}
+
+.experience-section-heading h2 {
+    text-align: center;
+}
+
+.experience-section-pod-heading {
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position:relative;
+}
+
+.experience-section-pod-heading p {
+
+    font-size: 14px;
+}
+
+.experience-section-pod-heading p a {
+
+    color:#ff6600;
+    
+}
+
+.experience-section-pod-heading p a:hover {
+
+    text-decoration: underline;
+    
+}
+
+.experience-section-pod-heading ul {
+
+font-size: 14px;
+
+}
+
+.experience-section-pod-heading ul li{
+
+margin-left: 20px;
+
+}
+
+.experience-sectio-pod-container {
+
+    padding-left: 30px;
+    border-left: solid #ff6600;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    position:absolute;
+    left: -10px;
+    top:-8px;
+    
+
+}
+
+.education-section{
+     padding: 0 200px;
+}
+
+
+
+.education-section-continer-heading {
+    text-align: center;
+    padding: 100px 0px 70px 0px;
+}
+
+.education-section-pod-continer {
+    padding-left: 30px;
+    border-left: solid #ff6600;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.education-section-pods {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    border-left: solid #ff6600 4px;
+
+
+}
+
