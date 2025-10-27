@@ -38,6 +38,8 @@ header {
     align-items: center;
 }
 
+.menu { display: none;}
+
 .logo {
 
     font-size: 26px;
@@ -284,29 +286,48 @@ color: #ff6600;
     text-decoration: underline;
 }
 
+.certificate-section {
+
+    padding-bottom: 100px;
+}
+
 
 
 .certificate-section-container{
-    background-color: aqua;
-}.certificate-section-pods-continer{
-    background-color: blueviolet;
+ 
+    padding: 0px 180px
+}
+
+.certificate-section-pods-continer{
+
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
-.certificate-section-left-pod{
-   width: 50%;
-   background-color: chartreuse;
+
+
+
+.certificate-section-pod {
+
+    background-color: #fffaf7;
+    border-radius: 15px;
+    padding: 25px 70px 25px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+       width: 50%;
+ 
 }
-.certificate-section-right-pod{
-   width: 50%;
-   background-color: rgb(66, 20, 249);
-   
-}
-.certificate-section-left-pod-image{
+
+
+.certificate-section-pod img{
     width:100%;
+    margin-bottom: 30px;
 }
-.certificate-section-right-pod-image{
-    width:100%;
+
+
+.certificate-section-pod h3{
+text-align: center;
 }
 
 .project-section-container-heading{
@@ -392,7 +413,7 @@ margin-left: 20px;
 }
 
 .education-section{
-     padding: 0 200px;
+     padding: 0px 200px 100px 200px;
 }
 
 
@@ -418,3 +439,80 @@ margin-left: 20px;
 
 }
 
+
+
+.certificate-section-container-heading {
+
+    text-align: center;
+    padding: 100px 0px 70px 0px;
+
+
+}
+
+.connect-section {
+    padding: 80px 350px;
+    
+}
+
+.connect-section-container {
+    
+
+}
+
+.connect-section-container-heading {
+
+    padding-bottom: 30px;
+}
+
+.connect-section-container-heading h2 {
+    text-align: center;
+
+}
+
+.connect-section-container-heading p {
+    text-align: center;
+
+}
+
+.connect-section-form {
+
+    background-color: #fff;
+padding: 30px;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+gap: 0px;
+align-items: center;
+
+}
+
+.connect-section-form input{
+
+    padding: 10px 15px;
+    border-radius: 8px ;
+    width: 100%;
+    font-size: 16px;
+    border: solid 1px lightgrey;
+
+}
+
+.connect-section-form textarea{
+
+    padding: 10px 15px;
+    border-radius: 8px ;
+    width: 100%;
+    font-size: 16px;
+    border: solid 1px lightgrey;
+    height: 100px;
+
+}
+
+.connect-section-form button {
+
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
