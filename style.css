@@ -10,6 +10,12 @@ body {
     background-color: #fff;
 }
 
+section {
+    
+    width: 1240px;
+    margin: 0 auto;
+}
+
 h2 {
 font-size: 36px;
 }
@@ -93,11 +99,7 @@ header {
     color: #ff6600;
 }
 
-section {
-    
-    width: 1240px;
-    margin: 0 auto;
-}
+
 .lightPinkBg{
         background: linear-gradient(135deg, #fffaf7, #fff2e6);
 }
