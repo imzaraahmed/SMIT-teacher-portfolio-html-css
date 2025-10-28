@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="myDiv" class="menu">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+    <button onclick="toggleDiv()">hide</button> 
+     <button>show</button>
+
+     <script>
+function toggleDiv() {
+  const div = document.getElementById("myDiv");
+  div.style.display = (div.style.display === "none") ? "block" : "none";
+}
+</script>
+</body>
+</html>

@@ -3,27 +3,95 @@
 
 
     .header {
-    padding: 20px;
- 
+        padding: 20px;
+
+    }
+
+    .logo {
+
+        font-size: 18px;
+    }
+
+    .menu {
+        display: block;
+
+        font-size: 32px;
+    }
+
+    .menu button {
+        padding: 6px 12px;
+        font-size: 22px;
+        border-radius: 8px;
+        border: solid 1px  #7d7d7d;
+    }
+
+        .close button {
+        margin: 24px 18px;
+        padding: 8px 17px;
+        font-size: 22px;
+        border-radius: 8px;
+        border: solid 1px  #7d7d7d;
+    }
+
+
+.nav{
+
+    display: none;
 }
 
-.logo {
 
-    font-size: 18px;
+    .nav-mobile {
+    padding: 0px;
+    width: calc(100vw - var(--scrollbar-width, 17px));
+    position:sticky;
+    top: 0;
+    z-index: 901;
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    background-color: #fffaf7;
+        
+    }
+
+    .close {
+    display: block;
 }
 
-.menu { display: block;
+    .nav-bar-mobile {
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+   
+    }
 
-    font-size: 32px;
-}
+    .nav-bar-mobile li {
 
-    .nav { display: none;}
+        width: calc(100vw - var(--scrollbar-width, 17px));
+        padding: 20px;
+        text-align: center;
+        display: block;
+        list-style-type: none;
+        border-bottom: solid 1px rgb(118, 118, 118);
+
+    }
+
+    .nav-bar-mobile li a {
+
+        text-decoration: none;
+        color: #222;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
 
     section {
 
         width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
+        padding: 0px 20px;
+        
     }
 
     .hero-section {
@@ -40,14 +108,15 @@
     .hero-right-col {
 
         width: 100%;
-     
+
 
 
     }
+
     .profile-image img {
-    margin-left: 0px;
-    
-}
+        margin-left: 0px;
+
+    }
 
     .hero-left-col {
         width: 100%;
@@ -122,12 +191,12 @@
         text-align: center;
     }
 
-    .project-section-container-heading{
+    .project-section-container-heading {
 
-    padding-top: 50px;
-  
+        padding-top: 50px;
 
-}
+
+    }
 
     .project-section {
         padding: 0px 0px;
@@ -155,8 +224,8 @@
     }
 
     .experience-section-heading {
-    padding: 0px 0px 50px 0px;
-}
+        padding: 0px 0px 50px 0px;
+    }
 
 
     .experience-section {
@@ -190,8 +259,8 @@
 
     .education-section-continer-heading {
 
-    padding: 0px 0px 50px 0px;
-}
+        padding: 0px 0px 50px 0px;
+    }
 
 
 }

@@ -12,8 +12,21 @@
 </head>
 
 <body>
-    <header>
-        <div class="header">
+
+    <div class="nav-mobile" id="nav-mobile">
+                <div class="close"><button onclick="closeMenu()">x</button></div>
+                <ul class="nav-bar-mobile">
+                    <li class="nav-links"><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Certificates</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+    <header id="header">
+        <div class="header" >
             <div class="logo">
                 <span class="first-name">Afsah</span><span class="last-name">Farooqui</span>
             </div>
@@ -27,7 +40,10 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="menu">☰</div>
+            <div class="menu"><button onclick="showMenu()">☰</button></div>
+
+            
+
         </div>
     </header>
     <div class="lightPinkBg">
@@ -175,7 +191,7 @@
                         <li>Collaborated with hardware engineers to integrate systems seamlessly.</li>
                     </ul>
                 </div>
-                       <div class="experience-section-pod-heading lightPinkBg">
+                <div class="experience-section-pod-heading lightPinkBg">
                     <div class="experience-dot"></div>
                     <h3>Software Developer - iBox (Remote)</h3>
                     <p> <a>www.ibox.eu.com</a></p>
@@ -187,7 +203,7 @@
                         <li>Collaborated with hardware engineers to integrate systems seamlessly.</li>
                     </ul>
                 </div>
-                       <div class="experience-section-pod-heading lightPinkBg">
+                <div class="experience-section-pod-heading lightPinkBg">
                     <div class="experience-dot"></div>
                     <h3>Software Developer - iBox (Remote)</h3>
                     <p> <a>www.ibox.eu.com</a></p>
@@ -215,82 +231,85 @@
 
     </section>
     <div class="lightPinkBg">
-    <section >
-        <div class="education-section">
-            <div class="education-section-continer">
-                <div class="education-section-continer-heading">
-                    <h2>My <span> Education</span></h2>
-                </div>
-                <div class="education-section-pod-continer">
-                    <div class="education-section-pods">
-                        <h4>Sindh Madressatul Islam University</h4>
-                        <p>Bachelor's in Software Engineering</p>
-                        <h4 class="orange-color-text">2023 - 2026 (Expected)</h4>
-                        <p>📍 Karachi, Pakistan</p>
+        <section>
+            <div class="education-section">
+                <div class="education-section-continer">
+                    <div class="education-section-continer-heading">
+                        <h2>My <span> Education</span></h2>
                     </div>
-                    <div class="education-section-pods">
-                        <h4>Sindh Madressatul Islam University</h4>
-                        <p>Bachelor's in Software Engineering</p>
-                        <h4>2023 - 2026 (Expected)</h4>
-                        <p>📍 Karachi, Pakistan</p>
-                    </div>
-                    <div class="education-section-pods">
-                        <h4>Sindh Madressatul Islam University</h4>
-                        <p>Bachelor's in Software Engineering</p>
-                        <h4>2023 - 2026 (Expected)</h4>
-                        <p>📍 Karachi, Pakistan</p>
+                    <div class="education-section-pod-continer">
+                        <div class="education-section-pods">
+                            <h4>Sindh Madressatul Islam University</h4>
+                            <p>Bachelor's in Software Engineering</p>
+                            <h4 class="orange-color-text">2023 - 2026 (Expected)</h4>
+                            <p>📍 Karachi, Pakistan</p>
+                        </div>
+                        <div class="education-section-pods">
+                            <h4>Sindh Madressatul Islam University</h4>
+                            <p>Bachelor's in Software Engineering</p>
+                            <h4>2023 - 2026 (Expected)</h4>
+                            <p>📍 Karachi, Pakistan</p>
+                        </div>
+                        <div class="education-section-pods">
+                            <h4>Sindh Madressatul Islam University</h4>
+                            <p>Bachelor's in Software Engineering</p>
+                            <h4>2023 - 2026 (Expected)</h4>
+                            <p>📍 Karachi, Pakistan</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     </div>
     <section>
         <div class="certificate-section">
             <div class="certificate-section-container">
-                <div class="certificate-section-container-heading"><h2>My <span>Certificates</span></h2></div>
+                <div class="certificate-section-container-heading">
+                    <h2>My <span>Certificates</span></h2>
+                </div>
                 <div class="certificate-section-pods-continer">
                     <div class="certificate-section-pod">
                         <img src="images/certitficate.jpeg">
-                            <h3>Certified Web & Mobile Hybrid App Development</h3>
-                            <p>Saylani Mass IT Training</p>
-                            <p class="orange-color-text">(2021 – 2022)</p>
-                        
+                        <h3>Certified Web & Mobile Hybrid App Development</h3>
+                        <p>Saylani Mass IT Training</p>
+                        <p class="orange-color-text">(2021 – 2022)</p>
+
                     </div>
-                                        <div class="certificate-section-pod">
+                    <div class="certificate-section-pod">
                         <img src="images/certificate-2.jpg">
-                            <h3>Certified Web & Mobile Hybrid App Development</h3>
-                            <p>Saylani Mass IT Training</p>
-                            <p class="orange-color-text">(2021 – 2022)</p>
-                        
+                        <h3>Certified Web & Mobile Hybrid App Development</h3>
+                        <p>Saylani Mass IT Training</p>
+                        <p class="orange-color-text">(2021 – 2022)</p>
+
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     </section>
 
     <div class="lightPinkBg">
-    <section>
-        <div class="connect-section">
-            <div class="connect-section-container">
-                <div class="connect-section-container-heading"> <h2>Let's <span>Connect</span></h2>
-                    <p>Interested in collaborating or hiring me? Let's talk!</p>
-                </div>
-                <form></form>
-                <div class="connect-section-form">
-                    
+        <section>
+            <div class="connect-section">
+                <div class="connect-section-container">
+                    <div class="connect-section-container-heading">
+                        <h2>Let's <span>Connect</span></h2>
+                        <p>Interested in collaborating or hiring me? Let's talk!</p>
+                    </div>
+                    <form></form>
+                    <div class="connect-section-form">
+
                         <input type="text"><br>
                         <input type="email"><br>
                         <textarea placeholder="Enter your message here"></textarea>
                         <div class="btn-container"><button class="orange-btn">Send Message</button></div>
 
-                    
+
+                    </div>
+                    </form>
                 </div>
-                </form>
             </div>
-        </div>
-    </section>
+        </section>
     </div>
     <footer>
         <div>
@@ -298,6 +317,35 @@
         </div>
     </footer>
 
+    <script>
+        /*
+        function toggleDiv() {
+
+            const div = document.getElementById("nav-links");
+            div.style.display = (div.style.display === "flex") ? "none" : "flex";
+        }
+        */
+
+        function showMenu() {
+
+            const div = document.getElementById("nav-mobile");
+            div.style.display = "flex";
+             const header = document.getElementById("header");
+            header.style.display = "none";
+        }
+        function closeMenu() {
+
+            const div = document.getElementById("nav-mobile");
+            div.style.display = "none";
+                         const header = document.getElementById("header");
+            header.style.display = "block";
+
+           
+
+            
+
+        }
+    </script>
 
 </body>
 
